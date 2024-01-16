@@ -2,14 +2,18 @@ package andreamarchica.U5W2L2.services;
 
 import andreamarchica.U5W2L2.entities.BlogAuthor;
 import andreamarchica.U5W2L2.exceptions.NotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+@Service
 public class BlogAuthorsService {
-    private List<BlogAuthor> blogAuthors = new ArrayList<>();
+
+    public List<BlogAuthor> blogAuthors = new ArrayList<>();
     public List<BlogAuthor> getBlogAuthors() {
         return this.blogAuthors;
     }
