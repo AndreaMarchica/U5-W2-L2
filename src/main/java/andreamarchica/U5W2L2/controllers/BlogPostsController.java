@@ -1,5 +1,6 @@
 package andreamarchica.U5W2L2.controllers;
 
+import andreamarchica.U5W2L2.entities.BlogAuthor;
 import andreamarchica.U5W2L2.entities.BlogPost;
 import andreamarchica.U5W2L2.services.BlogPostsService;
 import org.springframework.beans.factory.annotation.Autowired;
